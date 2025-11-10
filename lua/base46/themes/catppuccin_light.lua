@@ -57,6 +57,8 @@ M.polish_hl = {
     ["@property"] = { fg = M.base_30.teal },
     ["@variable.builtin"] = { fg = M.base_30.red },
   },
+  Cursor = { bg = M.base_30.blue, fg = M.base_30.black },   -- 光标背景色
+  CursorLine = { bg = M.base_30.one_bg2 },                  -- 光标所在行背景色
 }
 
 M.type = "light"
